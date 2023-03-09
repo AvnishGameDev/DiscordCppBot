@@ -154,7 +154,11 @@
     <ClInclude Include="BotManager.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="Commands\ClearCommand.h" />
     <ClInclude Include="Commands\TestCommand.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="Events\GuildMemberAdd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

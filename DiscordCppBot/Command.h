@@ -32,4 +32,6 @@ public:
     std::string description;
     dpp::parameter_registration_t params;
     dpp::snowflake guildID = 0;
+
+    dpp::cluster* bot;
 };

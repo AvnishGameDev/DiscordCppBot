@@ -35,6 +35,7 @@ public:
     {
         for (auto c : commands)
         {
+            c->bot = handler->owner;
             handler->add_command(
                 c->name,
                 c->params,
