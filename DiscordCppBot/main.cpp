@@ -10,7 +10,7 @@
 #include "Events/GuildMemberAdd.h"
 #pragma warning(pop)
 
-const std::string BOT_TOKEN = "MTA4MjMwNDU5ODYxMTU5MTMwOA.Gwj3tc.GJq3uUGdvLwtls1Nlz2C_WSesMCQEOqFGjMCp0";
+const std::string BOT_TOKEN = ""; // Add your token here.
 
 int main()
 {
